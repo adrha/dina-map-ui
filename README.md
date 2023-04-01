@@ -6,9 +6,9 @@
 ## THE CHALLENGE
 As part of a construction project aimed at redesigning the streets in Basel West, the potential should be leveraged to collectively design and utilize public spaces.  
 By utilizing new communication tools (electronic) and organizing meetings (analog), a network among local stakeholders (businesses, institutions, residents) should be established.  
-This network will address issues related to the public space and work towards a positive transformation that enhances the pedestrian experience along the 1.5 km stretch.  
+This network will address issues related to the public space and work towards a positive transformation that enhances the pedestrian experience along the 1.5 km stretch in Allschwil (Basel).  
 
-In addition, citizens and local businesses should receive a platform that informs them about ongoing and planned construction projects by the building authority, enabling them to provide input or participate in shaping the development of the area when called upon to participate.
+In addition, citizens and local businesses should have a platform that informs them about ongoing and planned construction projects by the building authority, enabling them to provide input or participate in shaping the development of the area when called upon to participate.
 <hr>  
 <br>
 
