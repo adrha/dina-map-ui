@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-popup-content-wrapper {
+  @apply bg-base-100;
+  @apply text-base;
+  @apply text-base-content;
+}
+
+.leaflet-popup-tip {
+  @apply bg-base-100;
+}
