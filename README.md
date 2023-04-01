@@ -1,6 +1,8 @@
 # DINA Map (Basel West)
 **DINA Map** is a successfull challenge of the hackathon [Hack4SocialGood](https://www.bfh.ch/de/aktuell/fachveranstaltungen/hack4socialgood/) held in Bern, Switzerland.
 
+> See the back-end repository: [dina-map-api](https://github.com/adrha/dina-map-api)
+
 ## THE CHALLENGE
 As part of a construction project aimed at redesigning the streets in Basel West, the potential should be leveraged to collectively design and utilize public spaces.  
 By utilizing new communication tools (electronic) and organizing meetings (analog), a network among local stakeholders (businesses, institutions, residents) should be established.  
