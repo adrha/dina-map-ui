@@ -1,0 +1,27 @@
+image: docker
+
+stages:
+  - build
+
+variables:
+  containerVersion: $CI_COMMIT_SHORT_SHA-$CI_PIPELINE_IID
+
+build:
+  stage: build  
+
+  only:
+    refs:
+      - main
+
+  before_script:
+    - apk update -f && apk --no-cache add -f curl && rm -rf /var/cache/apk/*
+    - echo $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin $CI_REGISTRY
+
+  script:
+    - docker build --pull --build-arg version_variable=$containerVersion -f Dockerfile -t $CI_REGISTRY_IMAGE:$containerVersion -t $CI_REGISTRY_IMAGE:latest ./
+    - docker push $CI_REGISTRY_IMAGE:$containerVersion
+    - docker push $CI_REGISTRY_IMAGE:latest
+    - curl --fail --data "" --silent --show-error $dockerImageUpdateWebHookUrl
+
+  after_script:
+    - docker logout $CI_REGISTRY
